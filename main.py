@@ -7,8 +7,6 @@ from tkinter import messagebox
 from tkvideo import tkvideo
 from playsound import playsound
 
-path = os.path.join(os.path.dirname(sys.executable), 'fhd1.mp4')
-
 
 def closing():
     if messagebox.askokcancel('Выход', 'Вы уверены, что хотите выйти из приложения?'):
